@@ -1,5 +1,3 @@
-"use client";
-
 interface LeaderBoardProps {
   scoreValue: {
     x: number;
@@ -9,7 +7,7 @@ interface LeaderBoardProps {
 
 export default function LeaderBoard({ scoreValue }: LeaderBoardProps) {
   return (
-    <div className="flex gap-4 m-5">
+    <div className="flex gap-4 my-5">
       <div className="flex-1 p-5 border-2 border-zinc-600 bg-blue-50 rounded-3xl shadow-sm text-center">
         <p className="text-sm uppercase tracking-wide text-blue-600 font-semibold whitespace-nowrap">
           Giocatore X
